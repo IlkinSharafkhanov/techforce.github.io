@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+header {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(175, 93, 0);
+    background-color: black;
+}
+
+
+.image {
+    height: 400px;
+    width: 700px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-bottom: 3px solid rgb(14, 52, 102);
+
+}
+.subtitle{
+    text-align: center;
+    color: rgb(14, 52, 102);
+}
+.process{
+    font-family: 'Montserrat';
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    font-size: 500;
+}
+
+ul {
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.contact {
+    padding-left: 20px;
+    color:rgb(204, 203, 203);
+    display: flex;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+}
+
+footer {
+    margin:0;
+    background-color: black;
+}
+
+.contact h3,
+h4 {
+    margin-right: 30px;
+}
+
+
+#team {
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+#team:hover {
+    color: rgb(3, 147, 190);
+    font-size: larger;
+    transition: 0.8s;
+}
+
+#members {
+    border-radius: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+#members:hover {
+    color: rgb(3, 147, 190);
+    font-size: larger;
+    transition: 0.8s;
+}
+
+#event {
+    border-radius: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+#event:hover {
+    color: rgb(3, 147, 190);
+    font-size: larger;
+    transition: 0.8s;
+}
+
+#website {
+    border-radius: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+#website:hover {
+    color: rgb(3, 147, 190);
+    font-size: larger;
+    transition: 0.8s;
+}

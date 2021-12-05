@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+header {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(175, 93, 0);
+    background-color: black;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.image {
+    height: 200px;
+    width: 200px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-bottom: 3px solid rgb(14, 52, 102);
+
+}
+.info{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: rgb(14, 52, 102);
+    border-bottom: 3px solid rgb(14, 52, 102);
+}
+.headgoal{
+    font-weight: 600;
+}
+.goals{
+    padding-top: 10px;
+    padding-left: 35px;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    color: rgb(14, 52, 102);
+    line-height: 5px;
+    border-bottom: 3px solid rgb(14, 52, 102);
+}
+.grouppic h1{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(14, 52, 102);
+    font-family: 'Montserrat';
+}
+.grouppic img{
+    margin-top:30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+    width: 550px;
+    border: 3px solid rgb(14, 52, 102);
+    box-shadow: 0px 4px 8px 1px #000; 
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 500;
+}
+
+ul {
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    margin: 10px;
+}
+
+
+.contact {
+    color:rgb(204, 203, 203);
+    display: flex;
+    font-family: 'Montserrat';
+    padding-left: 20px;
+}
+
+footer {
+    
+    background-color: black;
+}
+
+.contact h3,
+h4 {
+    margin-right: 30px;
+}
+
+h4 a {
+    text-decoration: none;
+    color: rgb(175, 93, 0);
+}
+
+h3{
+    font-weight: 900;
+}
+
+#team {
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 22px;
+}
+
+#team:hover {
+    color: rgb(231, 91, 9);
+    font-size: larger;
+    transition: 0.8s;
+}
+
+#members {
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 22px;
+}
+
+#members:hover {
+    color: rgb(231, 91, 9);
+    font-size: larger;
+    transition: 0.8s;
+}
+
+#event {
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 22px;
+}
+
+#event:hover {
+    color: rgb(231, 91, 9);
+    font-size: larger;
+    transition: 0.8s;
+}
+
+#website {
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 22px;
+}
+
+#website:hover {
+    color: rgb(231, 91, 9);
+    font-size: larger;
+    transition: 0.8s;
+}
